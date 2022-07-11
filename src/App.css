@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+@import '~antd/dist/antd.css';
+.div{
+ width: 680px;
+  height: 700px;
+  margin: 12vh auto;
+  box-shadow: 2px 3px 3px 2.8px #d7d7e4;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn1{
+  width: 130px;
+  height: 20px;
+}
+.input{
+  width: 250px;
+  height: 30px;
+}
+.rating{
+  margin-left: 300px;
+}
+.question-section {
+  width: 100%;
+  position: relative;
+}
+.btn{
+ margin-left: 310px;
+  width: 140px;
+  height: 40px;
+  background-color: teal;
+
+}
+input[type="radio"]{
+  /* display: none; */
+}
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+}
+.rate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

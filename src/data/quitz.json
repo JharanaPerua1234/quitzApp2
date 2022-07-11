@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+    "id":1,
+      "question": "What is the capital of Chattisgarh ?",
+      "choices": ["Split", "Raipur", "Zagreb", "Rijeka"],
+      "answer": "Raipur",
+       "rating":3
+    },
+    {
+     "id":2,
+      "question": "What is the capital of Odisha ?",
+      "choices": ["Celje", "Ljubljana", "Maribor", "Bhubaneswar"],
+      "answer": "Bhubaneswar",
+      "rating":3
+    },
+     {
+    "id":3,
+      "question": "What is the capital of India ?",
+      "choices": ["Celje", "Ljubljana", "Delhi", "Koper"],
+      "answer": "Delhi", "rating":3
+
+    },
+     {
+    "id":4,
+      "question": "What is the capital of Chattisgarh ?",
+      "choices": ["Split", "Raipur", "Zagreb", "Rijeka"],
+      "answer": "Raipur",
+       "rating":3
+    },
+    {
+     "id":5,
+      "question": "What is the capital of Odisha ?",
+      "choices": ["Celje", "Ljubljana", "Maribor", "Bhubaneswar"],
+      "answer": "Bhubaneswar",
+       "rating":3
+    },
+     {
+    "id":6,
+      "question": "What is the capital of India ?",
+      "choices": ["Celje", "Ljubljana", "Delhi", "Koper"],
+      "answer": "Delhi",
+       "rating":3
+    }
+  ]
+}
