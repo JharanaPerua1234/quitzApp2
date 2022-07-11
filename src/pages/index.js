@@ -12,17 +12,19 @@ const QuestionApp = () => {
   const [answers, setAnswers] = useState([]);
   const [selected, setSelected] = useState("");
   const [error, setError] = useState("");
-  const [rating, setRating] = useState(0);
+  // const [rating, setRating] = useState(0);
+   const [rating, setRating] = useState(null);
+   const [hover, setHover] = useState(null);
   const [feedback, setFeedback] = useState("");
   const[answer,setAnswer]=useState([])
 
   const onChangeFeedback = (e) => {
     setFeedback(e.target.value);
   };
-  const onChangeRating = (value) => {
-    setRating(value);
-    console.log("rating", rating);
-  };
+  // const onChangeRating = (value) => {
+  //   setRating(value);
+  //   console.log("rating", rating);
+  // };
 
   const changeHandler = (e) => {
     setSelected(e.target.value);
@@ -62,7 +64,7 @@ const QuestionApp = () => {
   };
   return (
     <div className="div">
-      <Rating onChangeRating={onChangeRating} />
+      <Rating setRating={setRating}  rating={rating} hover={hover} setHover={setHover}/>
       <QuestionViewer
         data={quizData.data[activeQuestion]}
         numberOfQuestions={quizData.data.length}

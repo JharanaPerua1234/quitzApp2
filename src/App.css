@@ -40,8 +40,8 @@
   background-color: teal;
 
 }
-input[type="radio"]{
-  /* display: none; */
+.radiobtn{
+  display: none;
 }
 .star{
   cursor: pointer;
